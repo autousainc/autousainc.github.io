@@ -4036,7 +4036,7 @@ Text Domain: Avada
   }
   #layerslider-wrapper .ls-shadow-top {
     position: absolute;
-    background-image: url(assets/images/shadow-top.png);
+    background-image: url(/assets/images/shadow-top.png);
     background-repeat: no-repeat;
     background-position: top center;
     height: 42px;
@@ -4046,7 +4046,7 @@ Text Domain: Avada
   }
   #layerslider-wrapper .ls-shadow-bottom {
     position: absolute;
-    background-image: url(assets/images/shadow-bottom.png);
+    background-image: url(/assets/images/shadow-bottom.png);
     background-repeat: no-repeat;
     background-position: bottom center;
     height: 32px;

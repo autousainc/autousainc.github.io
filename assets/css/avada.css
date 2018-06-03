@@ -331,7 +331,7 @@ html {
 
 .fusion-page-title-bar {
     border-color: #d2d3d4;
-    background-image: url("http://www2.itc-grenoble.com/itc/wp-content/themes/Avada/assets/images/page_title_bg.png");
+    background-image: url("/assets/images/page_title_bg.png");
     background-color: #F6F6F6;
     height: 87px;
 }
