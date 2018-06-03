@@ -2124,7 +2124,7 @@ body.side-header-left #side-header .fusion-main-menu .fusion-custom-menu-item-co
 .rev_slider_wrapper .shadow-left {
     position: absolute;
     pointer-events: none;
-    background-image: url("http://www.itc-grenoble.com/wp-content/themes/Avada/assets/images/shadow-top.png");
+    background-image: url("/assets/images/shadow-top.png");
     background-repeat: no-repeat;
     background-position: top center;
     height: 42px;
@@ -2136,7 +2136,7 @@ body.side-header-left #side-header .fusion-main-menu .fusion-custom-menu-item-co
 .rev_slider_wrapper .shadow-right {
     position: absolute;
     pointer-events: none;
-    background-image: url("http://www.itc-grenoble.com/wp-content/themes/Avada/assets/images/shadow-bottom.png");
+    background-image: url("/assets/images/shadow-bottom.png");
     background-repeat: no-repeat;
     background-position: bottom center;
     height: 32px;

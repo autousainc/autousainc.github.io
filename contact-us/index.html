@@ -32,14 +32,13 @@
 		__gaTracker('send', 'pageview');
 
 	</script>
-	<script src="http://www.w3schools.com/lib/w3data.js"></script>
 	<!-- / Google Analytics by Yoast -->
 	<script type='text/javascript' src='/assets/js/libs/jquery.js?ver=1.11.3'></script>
 	<script type='text/javascript' src='/assets/js/libs/jquery-migrate.min.js?ver=1.2.1'></script>
 	<script type='text/javascript' src='/assets/js/libs/jquery.tipsy.js?ver=4.3.1'></script>
 	<script type='text/javascript' src='/assets/js/libs/expandible.js?ver=4.3.1'></script>
 	<script type='text/javascript' src='/assets/js/libs/uultra-front.js?ver=4.3.1'></script>
-	<script type='text/javascript' src='http://www.itc-grenoble.com/wp-includes/js/plupload/plupload.full.min.js?ver=2.1.1'></script>
+	<script type='text/javascript' src='/assets/js/libs/plupload.full.min.js'></script>
 	<script type='text/javascript' src='/assets/js/libs/lightbox-2.6.min.js?ver=4.3.1'></script>
 	<script type='text/javascript' src='/assets/js/libs/jquery.validationEngine-en.js?ver=4.3.1'></script>
 	<script type='text/javascript' src='/assets/js/libs/jquery.validationEngine.js?ver=4.3.1'></script>
@@ -64,9 +63,7 @@
  data-spy="scroll">
 	<div id="wrapper" class="">
 		<div id="home" style="position:relative;top:1px;"></div>
-		<div w3-include-html="/header.html"></div>
-
-
+		<div id="header"></div>
 		<div id="sliders-container">
 		</div>
 
@@ -143,11 +140,8 @@
 									</div>
 									<div class="fusion-one-third one_third fusion-layout-column fusion-spacing-yes" style="margin-top:0px;margin-bottom:20px;">
 										<div class="fusion-column-wrapper">
-											<p>ITC &#8211; International Trading Company
-												<br /> 6 Boulevard Edouard Rey
-												<br /> 38000 Grenoble</p>
-											<p>Phone: +33 4 76 43 12 85
-												<br /> Fax: +33 4 76 46 61 24</p>
+												<p>AutoUSA Inc</p>
+												<p>Email: customerservice@autousamd.com</p>
 											<div class="fusion-clearfix"></div>
 										</div>
 									</div>
@@ -216,127 +210,31 @@
 			<!-- fusion-row -->
 		</div>
 		<!-- #main -->
-
-		<div class="fusion-footer">
-			<footer class="fusion-footer-widget-area fusion-widget-area">
-				<div class="fusion-row">
-					<div class="fusion-columns fusion-columns-3 fusion-widget-area">
-
-						<div class="fusion-column col-lg-4 col-md-4 col-sm-4">
-							<div id="text-10" class="fusion-footer-widget-column widget widget_text">
-								<div class="textwidget">
-									<img src="http://www.itc-grenoble.com/wp-content/uploads/logo-itc-collant.png" alt="Logo ITC" style="width: 40px;" />
-									<br /> International buying office specialized in South America</div>
-								<div style="clear:both;"></div>
-							</div>
-						</div>
-						<div class="fusion-column col-lg-4 col-md-4 col-sm-4">
-							<div id="text-7" class="fusion-footer-widget-column widget widget_text">
-								<h4 class="widget-title">Quick access</h4>
-								<div class="textwidget">
-									<ul>
-										<li>
-											<a href="../who-we-are/index.html">Who we are</a>
-										</li>
-										<li>
-											<a href="../the-itc-difference/index.html">The ITC difference</a>
-										</li>
-										<li>
-											<a href="../our-universe/index.html">Our universe</a>
-										</li>
-										<li>
-											<a href="index.html">Contact Us</a>
-										</li>
-										<li>
-											<a href="../login/index.html">Login</a>
-										</li>
-									</ul>
-								</div>
-								<div style="clear:both;"></div>
-							</div>
-						</div>
-						<div class="fusion-column fusion-column-last col-lg-4 col-md-4 col-sm-4">
-							<div id="text-4" class="fusion-footer-widget-column widget widget_text">
-								<h4 class="widget-title">Contact</h4>
-								<div class="textwidget">Address :
-									<br /> 6 boulevard Edouard Rey
-									<br /> 38000 Grenoble - France
-									<br /> Phone: +33 4 76 43 12 85
-									<br /> Fax: +33 4 76 46 61 24</div>
-								<div style="clear:both;"></div>
-							</div>
-						</div>
-						<div class="fusion-clearfix"></div>
-					</div>
-					<!-- fusion-columns -->
-				</div>
-				<!-- fusion-row -->
-			</footer>
-			<!-- fusion-footer-widget-area -->
-			<footer id="footer" class="fusion-footer-copyright-area">
-				<div class="fusion-row">
-					<div class="fusion-copyright-content">
-
-						<div class="fusion-copyright-notice">
-							<div>
-								<a href="http://www.itc-grenoble.com/fr/mentions-legales/">Mentions légales</a> - 2016 - itc-grenoble.com - Par
-								<a href="http://www.orma.fr/">ORMA</a>
-							</div>
-						</div>
-						<div class="fusion-social-links-footer">
-						</div>
-
-					</div>
-					<!-- fusion-fusion-copyright-content -->
-				</div>
-				<!-- fusion-row -->
-			</footer>
-			<!-- #footer -->
-		</div>
+		<div id="footer"></div>
 		<!-- fusion-footer -->
 	</div>
 	<!-- wrapper -->
-
-
 	<a class="fusion-one-page-text-link fusion-page-load-link"></a>
 
 	<!-- W3TC-include-js-head -->
 
-	<script type='text/javascript' defer="defer" src='http://www.itc-grenoble.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?rev=5.0.9'></script>
-	<script type='text/javascript' defer="defer" src='http://www.itc-grenoble.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?rev=5.0.9'></script>
-	<script type='text/javascript' src='http://www.itc-grenoble.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
-	<script type='text/javascript' src='http://www.itc-grenoble.com/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
-	<script type='text/javascript' src='http://www.itc-grenoble.com/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
-	<script type='text/javascript' src='http://www.itc-grenoble.com/wp-includes/js/jquery/ui/progressbar.min.js?ver=1.11.4'></script>
-	<script type='text/javascript' src='http://www.itc-grenoble.com/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
-	<script type='text/javascript'>
-		/* <![CDATA[ */
-		var _wpcf7 = { "loaderUrl": "http:\/\/www.itc-grenoble.com\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif", "recaptchaEmpty": "Please verify that you are not a robot.", "sending": "Sending ...", "cached": "1" };
-		w3IncludeHTML();
-/* ]]> */
-	</script>
-	<script type='text/javascript' src='http://www.itc-grenoble.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.3.1'></script>
-	<script type='text/javascript' src='http://www.itc-grenoble.com/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
-	<script type='text/javascript' src='http://www.itc-grenoble.com/wp-includes/js/jquery/ui/sortable.min.js?ver=1.11.4'></script>
-	<script type='text/javascript' src='http://www.itc-grenoble.com/wp-includes/js/comment-reply.min.js?ver=4.3.1'></script>
-	<script type='text/javascript'>
-		/* <![CDATA[ */
-		var js_local_vars = { "admin_ajax": "http:\/\/www.itc-grenoble.com\/wp-admin\/admin-ajax.php", "admin_ajax_nonce": "a7cd910663", "protocol": "", "theme_url": "http:\/\/www.itc-grenoble.com\/wp-content\/themes\/Avada", "dropdown_goto": "Go to...", "mobile_nav_cart": "Shopping Cart", "page_smoothHeight": "false", "flex_smoothHeight": "false", "language_flag": "", "infinite_blog_finished_msg": "<em>All posts displayed.<\/em>", "infinite_finished_msg": "<em>All items displayed.<\/em>", "infinite_blog_text": "<em>Loading the next set of posts...<\/em>", "portfolio_loading_text": "<em>Loading Portfolio Items...<\/em>", "faqs_loading_text": "<em>Loading FAQ Items...<\/em>", "order_actions": "Details", "avada_rev_styles": "1", "avada_styles_dropdowns": "0", "blog_grid_column_spacing": "40", "blog_pagination_type": "Pagination", "body_font_size": "19", "carousel_speed": "2500", "content_break_point": "800", "custom_icon_image_retina": "", "disable_mobile_animate_css": "1", "disable_mobile_image_hovers": "0", "portfolio_pagination_type": "Pagination", "form_bg_color": "#ffffff", "header_transparency": "0", "header_padding_bottom": "0px", "header_padding_top": "0px", "header_position": "Top", "header_sticky": "0", "header_sticky_tablet": "0", "header_sticky_mobile": "0", "header_sticky_type2_layout": "menu_only", "is_responsive": "1", "is_ssl": "false", "isotope_type": "masonry", "layout_mode": "wide", "lightbox_animation_speed": "Normal", "lightbox_arrows": "1", "lightbox_autoplay": "0", "lightbox_behavior": "all", "lightbox_desc": "1", "lightbox_deeplinking": "1", "lightbox_gallery": "1", "lightbox_opacity": "0.9", "lightbox_path": "vertical", "lightbox_post_images": "1", "lightbox_skin": "metro-white", "lightbox_slideshow_speed": "5000", "lightbox_social": "1", "lightbox_title": "1", "lightbox_video_height": "720", "lightbox_video_width": "1280", "logo_alignment": "Left", "logo_margin_bottom": "0", "logo_margin_top": "0", "megamenu_max_width": "1100px", "mobile_menu_design": "modern", "nav_height": "83", "nav_highlight_border": "3", "page_title_fading": "0", "pagination_video_slide": "0", "related_posts_speed": "2500", "retina_icon_height": "", "retina_icon_width": "", "submenu_slideout": "1", "side_header_break_point": "800", "sidenav_behavior": "Hover", "site_width": "940px", "slider_position": "below", "slideshow_autoplay": "1", "slideshow_speed": "7000", "smooth_scrolling": "1", "status_lightbox": "0", "status_totop_mobile": "0", "status_vimeo": "0", "status_yt": "0", "testimonials_speed": "0", "tfes_animation": "sides", "tfes_autoplay": "1", "tfes_interval": "3000", "tfes_speed": "800", "tfes_width": "150", "title_style_type": "double", "typography_responsive": "0", "typography_sensitivity": "0.6", "typography_factor": "1.5", "woocommerce_shop_page_columns": "4", "sticky_header_shrinkage": "1", "side_header_width": "0" };
-/* ]]> */
-	</script>
-	<script type='text/javascript' src='http://www.itc-grenoble.com/wp-content/themes/Avada/assets/js/main.min.js?ver=1.0.0'
-	 async></script>
+	<script type='text/javascript' src='/assets/js/libs/core.min.js?ver=1.11.4'></script>
+	<script type='text/javascript' src='/assets/js/libs/datepicker.min.js?ver=1.11.4'></script>
+	<script type='text/javascript' src='/assets/js/libs/widget.min.js?ver=1.11.4'></script>
+	<script type='text/javascript' src='/assets/js/libs/progressbar.min.js?ver=1.11.4'></script>
+	<script type='text/javascript' src='/assets/js/libs/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+	<script type='text/javascript' src='/assets/js/scripts.js?ver=4.3.1'></script>
+	<script type='text/javascript' src='/assets/js/libs/mouse.min.js?ver=1.11.4'></script>
+	<script type='text/javascript' src='/assets/js/libs/sortable.min.js?ver=1.11.4'></script>
+	<script type='text/javascript' src='/assets/js/libs/comment-reply.min.js?ver=4.3.1'></script>
 
-	<!--[if lte IE 8]>
-			<script type="text/javascript" src="http://www.itc-grenoble.com/wp-content/themes/Avada/assets/js/respond.js"></script>
-		<![endif]-->
+	<script type='text/javascript'>
+		$('div#header').load('/header.html',()=>{
+			// highlight current page in top nav menu
+			$('li#menu-item-13017').addClass('current_page_item');
+		});
+		$('div#footer').load('/footer.html');
+	</script>
 </body>
 
-<!-- Mirrored from www.itc-grenoble.com/en/contact-us/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 02 Jun 2018 16:23:51 GMT -->
-
 </html>
-
-<!-- Dynamic page generated in 0.501 seconds. -->
-<!-- Cached page generated by WP-Super-Cache on 2018-06-02 17:23:33 -->
-
-<!-- super cache -->

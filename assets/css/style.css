@@ -221,32 +221,32 @@
   
   /* Image client non sélectionné */
   .your-kind .wpcf7-list-item:nth-child(1) input[name="your-kind"] + span:before {
-    background-image: url('http://www.itc-grenoble.com/wp-content/uploads/clients-gris.png');
+    background-image: url('/assets/images/clients-gris.png');
   }
   
   /* Image fournisseur non sélectionné */
   .your-kind .wpcf7-list-item:nth-child(2) input[name="your-kind"] + span:before {
-    background-image: url('http://www.itc-grenoble.com/wp-content/uploads/fournisseurs-gris.png');
+    background-image: url('/assets/images/fournisseurs-gris.png');
   }
   
   /* Image partenaire non sélectionné */
   .your-kind .wpcf7-list-item:nth-child(3) input[name="your-kind"] + span:before {
-    background-image: url('http://www.itc-grenoble.com/wp-content/uploads/partenaires-gris.png');
+    background-image: url('/assets/images/partenaires-gris.png');
   }
   
   /* Image client sélectionné */
   .your-kind .wpcf7-list-item:nth-child(1) input[name="your-kind"]:checked + span:before {
-    background-image: url('http://www.itc-grenoble.com/wp-content/uploads/clients-orange.png');
+    background-image: url('/assets/images/clients-orange.png');
   }
   
   /* Image fournisseur sélectionné */
   .your-kind .wpcf7-list-item:nth-child(2) input[name="your-kind"]:checked + span:before {
-    background-image: url('http://www.itc-grenoble.com/wp-content/uploads/fournisseurs-orange.png');
+    background-image: url('/assets/images/fournisseurs-orange.png');
   }
   
   /* Image partenaire sélectionné */
   .your-kind .wpcf7-list-item:nth-child(3) input[name="your-kind"]:checked + span:before {
-    background-image: url('http://www.itc-grenoble.com/wp-content/uploads/partenaires-orange.png');
+    background-image: url('/assets/images/partenaires-orange.png');
   }
   
   
