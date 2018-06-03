@@ -1,0 +1,1534 @@
+/* Couleurs
+   - Bleu = rgb(0, 93, 178)
+   - Gris = rgb(173, 173, 173)
+   - Orange = rgb(240, 89, 34)
+*/
+
+.itc-light-text {
+    font-size: 13px;
+    color: rgb(150, 150, 150);
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    word-break: initial;
+    white-space: normal !important;
+  }
+  
+  @media screen and (max-width: 800px) {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      line-height: 40px !important;
+    }
+  }
+  
+  html body .fusion-main-menu > ul > li > a {
+    border-color: transparent !important;
+  }
+  
+  
+  
+  .fusion-logo-link h1 {
+    display: none;
+  }
+  
+  @media screen and (max-width: 800px) {
+    #wrapper .usersultra-dahsboard-cont .usersultra-dahsboard-left ul.main_menu li {
+      display: block !important;
+      width: auto !important;
+    }
+  }
+  
+  .page-id-11914 #main {
+    background-color: rgb(233, 233, 233);
+  }
+  
+  
+  .usersultra-dahsboard-cont {
+    border: 1px solid #dddddd;
+    box-shadow: 0 1px 2px -1px #cccccc;
+  }
+  
+  .usersultra-dahsboard-cont input[type="text"],
+  .usersultra-dahsboard-cont input[type="password"],
+  .usersultra-dahsboard-cont input[type="email"] {
+    padding: 6px !important;
+    border: 1px solid #cccccc !important;
+    background-color: #ffffff !important;
+    color: #000000 !important;
+  }
+  
+  .usersultra-dahsboard-cont input[type="text"]:focus,
+  .usersultra-dahsboard-cont input[type="password"]:focus,
+  .usersultra-dahsboard-cont input[type="email"]:focus {
+    border-color: rgb(40, 180, 255) !important;
+  }
+  
+  
+  
+  
+  
+  .itc-img-margin-top {
+    margin-top: 24px;
+  }
+  
+  
+  .itc-title-center .content-box-heading,
+  .itc-title-center .content-container {
+    text-align: center !important;
+  }
+  
+  .itc-title-center .content-box-heading {
+    color: rgb(88, 88, 88) !important;
+  }
+  
+  .itc-title-center .content-container a {
+    font-size: 13px !important;
+  }
+  
+  
+  /*
+  .single-avada_portfolio #content {
+    margin-top: 146px;
+  }
+  */
+  
+  
+  .breadcrumb,
+  .breadcrumb a {
+    font-size: 12px;
+    color: rgb(140, 140, 140);
+  }
+  
+  
+  .portfolio-half .project-content {
+    width: auto;
+    float: none;
+  }
+  
+  .fusion-recent-works .fusion-rollover-link,
+  .fusion-recent-works .fusion-rollover-gallery {
+    margin-bottom: -120px;
+  }
+  
+  .fusion-recent-works .fusion-rollover-title {
+    font-weight: bold !important;
+    font-family: 'Kimberley', 'Times New Roman', sans-serif !important;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.6) !important;
+    font-size: 20px !important;
+    line-height: 22px !important;
+    margin-top: 120px;
+  }
+  
+  .single-avada_portfolio .fusion-recent-works .fusion-rollover-link,
+  .single-avada_portfolio .fusion-recent-works .fusion-rollover-gallery {
+    margin-bottom: -40px;
+  }
+  .single-avada_portfolio .fusion-recent-works .fusion-rollover-title {
+    font-size: 16px !important;
+    line-height: 18px !important;
+    margin-top: 40px;
+  }
+  
+  
+  
+  /* ----------------------------
+     Formulaire « Notre univers »
+     ---------------------------- */
+  /* Texte « Je suis » */
+  .form-i-am {
+    color: rgb(130, 130, 130);
+    text-transform: uppercase;
+    margin-left: 31px !important;
+    margin-top: 34px !important;
+  }
+  
+  /* Placeholder */
+  input:placeholder-shown {
+    font-style: italic;
+  }
+  
+  /* Zone de saisie : mise en forme */
+  #wrapper .wpcf7-form input[type="text"],
+  #wrapper .wpcf7-form input[type="email"],
+  #wrapper .wpcf7-form textarea {
+    padding: 8px;
+    background-color: rgb(230, 230, 230);
+    color: rgb(100, 100, 100);
+    border: none !important;
+    font-family: 'Proxima Nova', 'Arial';
+    font-size: 16px;
+    height: 100%;
+  }
+  
+  /* Bouton de validation : mise en forme */
+  #wrapper .wpcf7-form input[type="submit"] {
+    padding: 12px 24px;
+    background: rgb(240, 89, 34);
+    color: rgb(255, 255, 255);
+    border: none;
+    font-family: 'Kimberley', 'Times New Roman', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 0;
+    text-transform: none;
+  }
+  
+  /* Image à droite du bouton de validation présent par défaut : caché */
+  .form-universe img {
+    display: none;
+  }
+  
+  /* Texte à droite du bouton radio */
+  input[name="your-kind"] + span {
+    padding: 0 16px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Proxima Nova', 'Arial';
+    color: rgb(184, 184, 184);
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  /* Texte à droite du bouton radio lorsque coché */
+  input[name="your-kind"]:checked + span {
+    color: rgb(240, 89, 34);
+  }
+  
+  /* Affiche une image au-dessus du texte à droite du bouton radio */
+  input[name="your-kind"] + span:before {
+    margin: 0 auto 8px auto;
+    display: block;
+    background-size: cover;
+    width: 60px;
+    height: 89px;
+    content: "";
+  }
+  
+  /* Cache le bouton radio */
+  input[name="your-kind"] {
+    display: none;
+  }
+  
+  /* Image client non sélectionné */
+  .your-kind .wpcf7-list-item:nth-child(1) input[name="your-kind"] + span:before {
+    background-image: url('http://www.itc-grenoble.com/wp-content/uploads/clients-gris.png');
+  }
+  
+  /* Image fournisseur non sélectionné */
+  .your-kind .wpcf7-list-item:nth-child(2) input[name="your-kind"] + span:before {
+    background-image: url('http://www.itc-grenoble.com/wp-content/uploads/fournisseurs-gris.png');
+  }
+  
+  /* Image partenaire non sélectionné */
+  .your-kind .wpcf7-list-item:nth-child(3) input[name="your-kind"] + span:before {
+    background-image: url('http://www.itc-grenoble.com/wp-content/uploads/partenaires-gris.png');
+  }
+  
+  /* Image client sélectionné */
+  .your-kind .wpcf7-list-item:nth-child(1) input[name="your-kind"]:checked + span:before {
+    background-image: url('http://www.itc-grenoble.com/wp-content/uploads/clients-orange.png');
+  }
+  
+  /* Image fournisseur sélectionné */
+  .your-kind .wpcf7-list-item:nth-child(2) input[name="your-kind"]:checked + span:before {
+    background-image: url('http://www.itc-grenoble.com/wp-content/uploads/fournisseurs-orange.png');
+  }
+  
+  /* Image partenaire sélectionné */
+  .your-kind .wpcf7-list-item:nth-child(3) input[name="your-kind"]:checked + span:before {
+    background-image: url('http://www.itc-grenoble.com/wp-content/uploads/partenaires-orange.png');
+  }
+  
+  
+  
+  
+  
+  /* ---------
+     Citations
+     --------- */
+  /* Image et titre centrés */
+  #itc-kinds.fusion-content-boxes.content-boxes-icon-on-top {
+    color: rgb(240, 89, 34) !important;
+    text-align: center;
+  }
+  
+  /* Titre centré */
+  #itc-kinds.fusion-content-boxes.content-boxes-icon-on-top .content-box-heading {
+    color: rgb(240, 89, 34) !important;
+    text-align: center;
+  }
+  
+  /* Image centrée */
+  #itc-kinds.fusion-content-boxes.content-boxes-icon-on-top .image {
+    text-align: center !important;
+  }
+  
+  /* Avatar caché */
+  .testimonial-thumbnail {
+    display: none;
+  }
+  
+  /* Point inatif : fond bleu */
+  .testimonial-pagination a {
+    background: rgb(0, 93, 178);
+    border: 1px solid rgb(0, 93, 178) !important;
+  }
+  
+  /* Point actif : fond blanc */
+  .testimonial-pagination a.activeSlide {
+    background: rgb(255, 255, 255) !important;
+  }
+  
+  /* Hauteur du texte d'une citation : 200px avec une barre défilante au besoin */
+  .review blockquote {
+    height: 200px;
+    overflow: auto;
+  }
+  
+  /* Hauteur des citations en comptant les marges */
+  .reviews {
+    height: 271px !important;
+  }
+  
+  /* Bloc citation : fond bleu et bords arrondis */
+  .review {
+    background-color: rgb(0, 93, 178);
+    border-radius: 20px;
+  }
+  
+  /* Intérieur du bloc citation : texte blanc sans fond */
+  .review blockquote,
+  .review q,
+  .review .author {
+    background: none !important;
+    color: rgb(255, 255, 255) !important;
+  }
+  
+  /*  Citation justifiée */
+  .review q {
+    padding-bottom: 6px !important;
+    text-align: justify !important;
+  }
+  
+  /* Auteur d'une citation : mise en forme */
+  #wrapper .review .author {
+    font-size: 14px;
+    text-align: right;
+    padding-bottom: 20px;
+    padding-right: 20px;
+  }
+  
+  /* Auteur d'une citation : suppression du gras */
+  #wrapper .review .author strong {
+    font-weight: normal;
+  }
+  
+  /* Guillemets utilisés : « et » avec une espace insécable après ou avant */
+  .review {
+    quotes: "«/00A0" "/00A0»";
+  }
+  
+  /* Après une citation : guillemets ouvrants */
+  .review q::before {
+    content: open-quote !important;
+  }
+  
+  /* Après une citation : guillemets fermants */
+  .review q::after {
+    content: close-quote !important;
+  }
+  
+  /* Lien actif : triangle en-dessous */
+  .fusion-content-boxes .fusion-column.itc-box-active::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-bottom: 24px solid rgb(0, 93, 178);
+    border-left: 16px solid transparent;
+    border-right: 16px solid transparent;
+    position: absolute;
+    left: 42%;
+  }
+  
+  [lang="es-ES"] #itc-kinds .fusion-column {
+    margin-bottom: 0;
+  }
+  
+  
+  
+  
+  
+  .page-id-11914 #content,
+  .page-id-11981 #content,
+  .page-id-12001 #content {
+    margin-top: 80px;
+  }
+  
+  
+  #main {
+    padding-bottom: 0;
+  }
+  
+  html .fusion-mobile-menu-icons a {
+    font-size: 32px;
+    margin: 10px 10px 0 0;
+    /* font-family: 'Kimberley', 'Times New Roman', sans-serif; */
+  }
+  
+  html .fusion-mobile-menu-icons a:before {
+    color: rgb(0, 0, 0);
+  }
+  
+  
+  
+  
+  .ld-title-subimage {
+    margin-top: 32px !important;
+    text-transform: uppercase;
+    color: rgb(0, 93, 178);
+    font-size: 90%;
+  }
+  
+  html .itc-points-cles .icon-left .content-box-heading {
+    color: rgb(240, 89, 34) !important;
+    min-height: 44px;
+    font-size: 76% !important;
+    text-align: center;
+  }
+  
+  html .itc-points-cles .icon-left:hover .content-box-heading {
+    color: rgb(255, 255, 255) !important;
+    
+  }
+  
+  .section-dark .itc-points-cles .heading-link:hover {
+    text-decoration: none;
+  }
+  
+  html .itc-points-cles .content-container {
+    text-align: center !important;
+    font-size: 80%;
+    line-height: normal;
+  }
+  
+  html .itc-points-cles .icon-left .image {
+    text-align: center !important;
+  }
+  
+  html .itc-points-cles .icon-left .image img {
+    margin: 0 0 16px 0;
+  }
+  
+  
+  /* -----------------
+     Qui sommes-nous ?
+     ----------------- */
+  /* Marges des blocs qui comptent */
+  .fusion-counters-box .fusion-counter-box .counter-box-container {
+    padding-top: 8px;
+  }
+  
+  /* Images de blocs comptants */
+  .counter-box-image {
+    margin-top: 24px;
+    height: 100px;
+    width: auto;
+  }
+  
+  /* Triangles au centre des textes */
+  .block-triangles {
+    position: absolute;
+    left: 46%;
+    top: 49%;
+  }
+  
+  /* Coupe les mots avec un tiret */
+  .post-content p {
+    hyphens: auto;
+  }
+  
+  /* Petit rectangle bleu sous le premier textee */
+  .block-decorative {
+    background: #0e46a7;
+    width: 70px;
+    height: 12px;
+    float: right;
+  }
+  
+  /* Titre des 4 blocs en colonne */
+  #wrapper #main .post-content .fusion-title.qsn-title-h3 h3 {
+    color: rgb(240, 89, 34);
+    font-family: 'Kimberley', 'Times New Roman', sans-serif;
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+  
+  /* Titres h2 */
+  html #wrapper .post-content .fusion-title.qsn-title h2 {
+    font-family: 'Proxima Nova', 'Arial';
+    font-size: 36px !important;
+  }
+  
+  html .qsn-title-orange h2 {
+    color: rgb(240, 89, 34);
+  }
+  
+  html .qsn-title-white h2 {
+    color: rgb(255, 255, 255);
+  }
+  
+  html .qsn-title-center h2 {
+    text-align: center;
+    display: block;
+    float: none;
+  }
+  
+  html .qsn-title-left h2 {
+    text-align: left;
+    display: block;
+    float: none;
+  }
+  
+  #wrapper #main .post-content .fusion-title.qsn-title-big h2 {
+    font-family: 'Kimberley', 'Times New Roman', sans-serif;
+    font-size: 34px !important;
+  }
+  
+  #wrapper #main .post-content .fusion-title.qsn-title-small h2 {
+    font-family: 'Kimberley', 'Times New Roman', sans-serif;
+    font-size: 26px !important;
+  }
+  
+  html #wrapper .qsn-title-bordered h2 {
+    margin-bottom: 50px !important;
+  }
+  
+  html #wrapper .qsn-title-bordered h2:after {
+    margin: 0 auto;
+    display: block;
+    content: "";
+    border-bottom: 2px solid #F25923;
+    width: 50px;
+    height: 27px;
+  }
+  
+  html #wrapper .qsn-title-white.qsn-title-bordered h2:after {
+    border-bottom-color: #FFFFFF;
+  }
+  
+  html #wrapper .qsn-title-left.qsn-title-bordered h2:after {
+    margin: 0;
+  }
+  
+  /* Titre « Qui sommes-nous ? » */
+  html #wrapper .section-title .fusion-title.title {
+    margin: 3% 15% 8% 15%;
+    position: relative;
+  }
+  
+  html #wrapper .section-title .fusion-title.title h1 {
+    color: #FFFFFF;
+    font-size: 46px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .7);
+    margin-bottom: 20px !important;
+    font-family: 'Kimberley', 'Times New Roman', sans-serif;
+  }
+  
+  html #wrapper .section-title .fusion-title.title:after {
+    content: '';
+    border-bottom: 4px solid #F25923;
+    width: 70px;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .fusion-footer .fusion-columns {
+    margin: 0 auto;
+    max-width: 818px;
+  }
+  
+  
+  .slotholder {
+    transform: none !important;
+  }
+  
+  
+  /*
+  #sliders-container,
+  #sliders-container .forcefullwidth_wrapper_tp_banner,
+  #sliders-container #rev_slider_4_1_wrapper,
+  #sliders-container #rev_slider_4_1 {
+    min-height: 722px !important;
+    max-height: 722px !important;
+    height: 722px !important;
+  }
+  */
+  
+  #wrapper .post-content .content-box-heading {
+    font-family: 'Kimberley', 'Times New Roman', sans-serif;
+    font-weight: bold;
+  }
+  
+  
+  
+  .bloc-presentation > .fusion-row {
+    max-width: 740px !important;
+  }
+  
+  .bloc-presentation .fusion-one-fifth {
+    margin-top: 40px !important;
+  }
+  
+  
+  
+  html .fusion-recent-works {
+    margin-bottom: 0;
+  }
+  
+  
+  
+  
+  .btn-all-references {
+    border: 1px solid rgb(209, 209, 209);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    width: 115px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 8px;
+    color: #1d1d1d;
+    line-height: normal;
+    display: block;
+  }
+  
+  
+  
+  
+  
+  h4.fusion-rollover-title {
+    color: rgb(255, 255, 255) !important;
+  }
+  
+  .fusion-carousel-item img {
+    /*-webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    filter: grayscale(100%);*/
+    transition: all 0.3s;
+  }
+  
+  .fusion-carousel-item:hover img {
+    -webkit-filter: none;
+    -moz-filter: none;
+    filter: none;
+  }
+  
+  
+  
+  
+  
+  .section-dark a,
+  .section-dark .content-container,
+  .section-dark p,
+  .section-dark .section-subtitle,
+  .section-dark .content-box-heading,
+  html #wrapper .section-dark .fusion-title.title h2 {
+    color: rgb(255, 255, 255) !important;
+  }
+  
+  .section-dark a.heading-link:hover {
+    text-decoration: underline;
+  }
+  
+  
+  
+  
+  
+  body.home {
+    font-size: 19px;
+  }
+  
+  /*
+  body:not(.home) .fusion-standard-logo {
+    display: none !important;
+  }
+  
+  body:not(.home) .fusion-sticky-logo-1x {
+    display: block !important;
+  }
+  */
+  
+  
+  
+  
+  
+  html body:not(.home) #wrapper .fusion-title.title-center {
+    display: block !important;
+    text-align: center;
+  }
+  
+  html body:not(.home) #wrapper .fusion-title.title-center .title-sep-container {
+    display: none !important;
+  }
+  
+  html body:not(.home) #wrapper .fusion-title.title-center h1,
+  html body:not(.home) #wrapper .fusion-title.title-center h2 {
+    width: 100%;
+    font-family: 'Kimberley', 'Times New Roman', sans-serif;
+    font-weight: bold;
+  }
+  
+  
+  
+  /* ---------
+     Compteurs
+     --------- */
+  .fusion-counters-box .fusion-counter-box {
+    margin-bottom: 0;
+  }
+  
+  .fusion-counters-box .fusion-counter-box:nth-child(2n+1) {
+    background: #456FB9;
+  }
+  
+  .fusion-counters-box .counter-box-container {
+    border: none !important;
+  }
+  
+  .fusion-counters-box .counter-box-container .display-counter,
+  .fusion-counters-box .counter-box-container .unit {
+    font-weight: bold !important;
+    color: rgb(255, 255, 255) !important;
+  }
+  
+  .fusion-counters-box .counter-box-content {
+    font-weight: lighter !important;
+    color: rgb(255, 255, 255) !important;
+    font-size: 16px !important;
+    text-transform: uppercase;
+    min-height: 54px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  html body:not(.home) #wrapper .fusion-title .sep-single {
+    border-color: rgb(0, 93, 178) !important;
+  }
+  
+  /*
+  html body:not(.home) #wrapper .fusion-title {
+    display: table !important;
+  }
+  
+  html body:not(.home) #wrapper .fusion-title .title-sep-container {
+    display: table-cell !important;
+  }
+  
+  html body:not(.home) #wrapper .fusion-title h2 {
+    font-size: 20px !important;
+    line-height: normal !important;
+    margin: 8px 0 !important;
+    color: rgb(0, 93, 178) !important;
+  }
+  */
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* -------
+     Polices
+     ------- */
+  @font-face {
+    font-family: 'Proxima Nova';  
+    src: url('/assets/css/assets/fonts/proxima-nova/proxima-nova-bold.woff');  
+    font-weight: bold;  
+  }
+  
+  @font-face {
+    font-family: 'Proxima Nova';  
+    src: url('/assets/css/assets/fonts/proxima-nova/proxima-nova-regular.woff');  
+    font-weight: normal;  
+  }
+  
+  @font-face {
+    font-family: 'Kimberley';  
+    src: url('/assets/css/assets/fonts/kimberley/kimberley-black.woff');  
+    font-weight: 900;  
+  }
+  
+  
+  
+  
+  
+  /* -----------
+     Formulaires
+     ----------- */
+  html .wpcf7-form .wpcf7-text,
+  html .wpcf7-form .wpcf7-textarea,
+  html input[type="text"] {
+    border: 1px solid rgb(201, 201, 201) !important;
+    border-bottom-color: rgb(172, 172, 172) !important;
+    border-right-color: rgb(172, 172, 172) !important;
+    border-radius: 0 !important;
+  }
+  
+  html .wpcf7-form .wpcf7-text:focus,
+  html .wpcf7-form .wpcf7-textarea:focus,
+  html input[type="text"]:focus {
+    border-color: rgb(40, 180, 255) !important;
+  }
+  
+  html input.xoouserultra-button {
+    background-color: rgb(0, 0, 0) !important;
+    color: rgb(255, 255, 255) !important;
+    border-radius: 0 !important;
+    border: none !important;
+  }
+  
+  html input.xoouserultra-button[type="button"]:hover {
+    background: rgb(40, 180, 255) !important;
+  }
+  
+  
+  
+  
+  
+  /* ----------------------
+     Sélection de la langue
+     ---------------------- */
+  @media screen and (min-width: 800px) {
+    /* 2 : « Mon espace » */
+    /* 3 et 4 : langues du menu déroulant */
+    /* 5 : langue directement affichée */
+    
+    /* Mise en place (x) et en forme des liens du menu déroulant */
+    html .fusion-menu li:nth-last-child(3) {
+      top: 100px;
+      box-shadow: 0px 2px 1px 0 rgba(0, 0, 0, .2);
+    }
+    
+    html .fusion-menu li:nth-last-child(4) {
+      top: 70px;
+      box-shadow: 0px 0px 1px 0 rgba(0, 0, 0, .2);
+    }
+  
+    html .fusion-menu li:nth-last-child(3),
+    html .fusion-menu li:nth-last-child(4) {
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      right: 16px;
+      line-height: 22px;
+      display: none;
+      z-index: 11; /* Permet de colorer le bon élément au survol... */
+    }
+  
+    html .fusion-menu li:nth-last-child(3):hover,
+    html .fusion-menu li:nth-last-child(4):hover {
+      z-index: 12; /* ... en augmentant la valeur lorsque la souris passe */
+    }
+    
+    html .fusion-menu li:nth-last-child(3) a,
+    html .fusion-menu li:nth-last-child(4) a {
+      height: 22px;
+      line-height: 22px;
+      background: rgb(255, 255, 255);
+      padding: 4px 8px;
+    }
+    
+    html .fusion-menu li:nth-last-child(3) a:hover,
+    html .fusion-menu li:nth-last-child(4) a:hover {
+      background: rgb(233, 233, 233);
+    }
+  
+    /* Tous les liens du menu déroulant ou non sont limités en largeur */  
+    html .fusion-menu li:nth-last-child(3) a,
+    html .fusion-menu li:nth-last-child(4) a,
+    html .fusion-menu li:nth-last-child(5) a {
+      width: 40px;
+    }
+  
+    /* Correction des marges du lien langue */
+    html .fusion-menu li:nth-last-child(5) {
+      margin-right: 16px !important;
+      padding-right: 8px !important;
+    }
+  
+    /* Lien langue survolé */
+    html .fusion-menu li:nth-last-child(5) a:hover {
+      color: rgb(47, 56, 61) !important;
+    }
+  
+    /* Petite flèche à côté du lien langue */
+    html .fusion-menu li:nth-last-child(5) a:after {
+      content: '/00a0/25be';
+      color: orange;
+    }
+  
+    /* Envoie à droite les éléments : Mon espace, les 3 langues et le lien de recherche invisible */
+    html .fusion-menu li:nth-last-child(-n+5) {
+      float: right;
+    }
+  
+    /* Corrige la mise en forme des liens langues */
+    html .fusion-menu li:nth-last-child(-n+5) a {
+      color: rgb(115, 137, 150) !important;
+      text-transform: none !important;
+      font-weight: normal !important;
+    }
+  
+    /* Bordure et marges de « Mon espace » */
+    html .fusion-menu li:nth-last-child(2) {
+      border-left: 2px solid rgb(244, 244, 244);
+      border-right: 2px solid rgb(244, 244, 244);
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  
+    /* Correction de la hauteur de liens */
+    html .fusion-main-menu > ul > li > a {
+      height: 67px;
+      line-height: 67px;
+    }
+  }
+  
+  
+  
+  
+  
+  /* ------------
+     Nos services
+     ------------ */
+  @media screen and (min-width: 950px) {
+    /* Texte aligné à droite pour la colonne droite */
+    html .icon-right,
+    html .icon-right .image,
+    html .icon-right .content-box-heading,
+    html .icon-right + .fusion-clearfix + .content-container {
+      text-align: right;
+    }
+  
+    /* Texte aligné à gauche pour la colonne gauche */
+    html .icon-left,
+    html .icon-left .image,
+    html .icon-left .content-box-heading,
+    html .icon-left + .fusion-clearfix + .content-container {
+      text-align: left;
+    }
+  
+    .itc-qsm-top-left .heading.heading-with-icon.icon-left { width: 200px; }
+    .itc-qsm-top-left .icon-left + .fusion-clearfix + .content-container { width: 242px; }
+  
+    .itc-qsm-bottom-left .heading.heading-with-icon.icon-left { width: 176px; }
+    .itc-qsm-bottom-left .icon-left + .fusion-clearfix + .content-container { width: 298px; }
+  
+    .itc-qsm-top-right .heading.heading-with-icon.icon-right { width: 204px; float: right; }
+    .itc-qsm-top-right  .icon-right + .fusion-clearfix + .content-container { width: 250px; }
+  
+    .itc-qsm-bottom-right .heading.heading-with-icon.icon-right { width: 100%; }
+    .itc-qsm-bottom-right  .icon-right + .fusion-clearfix + .content-container { width: 272px; }
+  
+    /* idem que précédemment mais pour la colonne droite */
+    html .icon-right + .fusion-clearfix + .content-container {
+      width: 250px;
+      float: right;
+    }
+  
+    /* Mise en forme du titre */
+    html .content-box-heading {
+      color: rgb(0, 114, 187) !important;
+      font-family: 'Proxima Nova', 'Arial';
+      text-transform: uppercase;
+    }
+  
+    /* Couleur du contenu */
+    html .content-container {
+      color: rgb(88, 88, 88);
+      font-size: 17px;
+    }
+  
+    /* Position relative pour que la carte puisse se centrer */
+    html .fusion-row {
+      position: relative;
+    }
+    
+    /* Carte « Nos services » sur la page d'accueil */
+    html .itc-map {
+      width: 50%;
+      position: absolute;
+      left: 25%;
+      z-index: 10;
+      max-width: 500px;
+    }
+  
+    /* La colonne de droite est déplacé plus à droite pour ne pas passer sous la carte */
+    html .itc-map + div {
+      margin-left: 34.6666%;
+    }
+  }
+  
+  @media screen and (max-width: 950px) {
+    html .itc-map {
+      margin-top: 150px !important;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    html .itc-map {
+      margin-top: 0 !important;
+    }
+  
+    html .itc-map img {
+      max-width: 300px;
+    }
+  }
+  
+  
+  
+  
+  
+  /* -------------
+     Espace membre
+     ------------- */
+  html .main_menu {
+    padding-left: 0;
+  }
+  
+  html .usersultra-dahsboard-cont .usersultra-dahsboard-left {
+    width: 30%;
+    margin-top: 40px;
+    border: none;
+  }
+  
+  html .usersultra-dahsboard-cont .usersultra-dahsboard-center {
+    width: 65%;
+  }
+  
+  html body:not(.home) #wrapper .post-content h2 {
+    font-size: 24px;
+  }
+  
+  html .uultra-btn-u-menu {
+    margin: 0;
+    padding: 8px;
+    border-radius: 0px;
+    border: none;
+    background: rgb(232, 232, 232);
+    color: rgb(0, 0, 0) !important;
+    font-size: inherit;
+    font-size: 16px;
+  }
+  
+  html .uultra-btn-u-menu:hover {
+    margin: 0;
+    padding: 8px;
+    border: none;
+    border-radius: 0;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255) !important;
+  }
+  
+  html .uultra-btn-u-menu span i {
+    font-size: 16px;
+  }
+  
+  /* Permet de faire fonctionner le tri des fichiers même si l'utilisateur est descendu dans la page */
+  #usersultra-gallerylist,
+  #usersultra-photolist {
+    overflow: auto;
+  }
+  
+  /* Mise en forme d'un fichier */
+  #usersultra-photolist li {
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    min-height: auto;
+    box-shadow: none;
+    border: 2px solid rgb(200, 200, 200);
+    width: 166px;
+  }
+  
+  #usersultra-photolist li:hover {
+    border-color: rgb(0, 0, 0);
+  }
+  
+  /* Mise en forme de l'image du fichier */
+  #usersultra-photolist li .doc-miniature {
+    padding: 6px;
+    display: block;
+  }
+  
+  #usersultra-photolist li a img {
+    max-width: 100%;
+    height: auto;
+    min-height: 80px;
+    max-height: 80px;
+  }
+  
+  /* Mise en forme du nom du fichier */
+  #usersultra-photolist li .doc-name {
+    padding: 6px;
+    font-size: 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    width: 100%;
+    display: block;
+  }
+  
+  /* Zone de dépôt de fichiers */
+  html .drag-drop #drag-drop-area {
+    border-width: 2px;
+  }
+  
+  /* Bouton pour chercher un fichier à téléverser */
+  html #plupload-browse-button {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 16px 32px;
+    border: none;
+  }
+  
+  html #plupload-browse-button:hover {
+    background: rgb(44, 44, 44);
+    cursor: pointer;
+  }
+  
+  /* Zone d'édition d'un dossier */
+  html .uultra-gallery-edit {
+    box-shadow: 0 0 3px 0 rgb(0, 0, 0);
+  }
+  
+  /* Liste des dossiers */
+  html #usersultra-gallerylist {
+    padding-left: 0;
+  }
+  
+  /* Ligne de la liste des dossiers */
+  html #usersultra-gallerylist li {
+    display: block;
+    width: auto !important;
+    height: auto !important;
+    padding: 0 !important;
+    text-align: left;
+  }
+  
+  /* Liste des dossiers - Nom */
+  html #usersultra-gallerylist li .usersultra-photo-name {
+    padding-left: 8px;
+    width: 66%;
+    display: inline-block;
+    background: none;
+    font-size: 15px;
+    position: static;
+  }
+  
+  /* Liste des dossiers - Nombre de documents */
+  html #usersultra-gallerylist li .usersultra-amount_pictures {
+    margin: 5px 0;
+    width: 20%;
+    display: inline-block;
+    font-size: 12px;
+  }
+  
+  /* Liste des dossiers - Icônes */
+  html #usersultra-gallerylist li .pe_icons_gal {
+    margin: 5px 0;
+    width: 10%;
+    display: inline-block;
+    position: static;
+    vertical-align: middle;
+  }
+  
+  
+  
+  
+  
+  /* ----
+     Site
+     ---- */
+  /* Utilisation de la police sur le site */
+  html body {
+    font-family: 'Proxima Nova', 'Arial';
+  }
+  
+  /* Suppression de la marge entre le contenu et le pied de page sur l'accueil */
+  html .home #main {
+    padding-bottom: 0;
+  }
+  
+  
+  
+  
+  
+  
+  /* ------
+     Entête
+     ------ */
+  /* Fond de l'entête blanc */
+  html .fusion-header {
+    padding: 0;
+    background: rgb(255, 255, 255);
+    height: 70px !important;
+  }
+  
+  html .fusion-header-sticky-height {
+    height: 70px !important;
+  }
+  
+  html .fusion-header-wrapper .fusion-row {
+    max-width: 100%;
+    padding: 0 0 0 36px;
+  }
+  
+  
+  
+  
+  
+  /* ----
+     Logo
+     ---- */
+  /* Eviter que le menu passe en-dessous du logo */
+  html .fusion-logo::after {
+    clear: none;
+  }
+  
+  /* Limitation de la largeur du logo */
+  html .fusion-logo img {
+    width: 160px;
+    height: auto;
+  }
+  
+  html .fusion-logo .fusion-sticky-logo-1x,
+  html .fusion-logo .fusion-sticky-logo-2x {
+    width: 58px;
+    height: auto;
+  }
+  
+  /*
+  html body:not(.home) .fusion-logo img {
+    width: 58px;
+  }
+  */
+  
+  
+  
+  
+  
+  /* ----
+     Menu
+     ---- */
+  /* Menu en position absolu pour que le diaporama passe dessous */
+  @media screen and (min-width: 800px) {
+    html #wrapper .fusion-header-wrapper {
+      position: absolute;
+      left: 0px;
+      right: 0px;
+    }
+  }
+  
+  /* Affichage en bloc du menu */
+  html .fusion-main-menu {
+    display: block;
+    float: none;
+    overflow: auto !important;
+    position: static;
+  }
+  
+  /* Marge entre le logo et le menu */
+  html .fusion-main-menu ul {
+    margin-left: 16px;
+  }
+  
+  /* Marge des éléments du menu */
+  html .fusion-main-menu ul > li {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  
+  /* Mise en forme des liens du menu */
+  html .fusion-main-menu > ul > li > a {
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Proxima Nova', 'Arial';
+  }
+  
+  /* Un lien survolé ou actif est coloré orange */
+  html .fusion-main-menu .current-menu-item > a,
+  html .fusion-main-menu > ul > li > a:hover {
+    border-color: transparent;
+    color: rgb(240, 89, 34);
+  }
+  
+  /* Cacher le lien de recherche */
+  html .fusion-main-menu-search {
+    display: none;
+  }
+  
+  
+  
+  
+  
+  /* ---------
+     Diaporama
+     --------- */
+  /* Suppression des ombres sur le diaporama */
+  html .rev_slider_wrapper .shadow-left,
+  html .rev_slider_wrapper .shadow-right {
+    display: none;
+  }
+  
+  /* Suppression des bordures du diaporama */
+  html .rev_slider_wrapper {
+    border: none;
+  }
+  
+  
+  
+  
+  
+  /* ------
+     Titres
+     ------ */
+  /* Bloc autour du titre */
+  html #wrapper .fusion-title.title {
+    margin: 0;
+    display: block;
+  }
+  
+  .fusion-title.title h1 {
+    margin-bottom: 38px !important;
+  }
+  
+  .fusion-title.title h2 {
+    margin-bottom: 52px !important;
+  }
+  
+  /* Titre h2 */
+  html body.home #wrapper .fusion-title.title h2 {
+    margin: 24px 0;
+    float: none;
+    display: block;
+    text-align: center;
+    font-size: 42px !important;
+    color: rgb(0, 0, 0);
+    font-family: 'Kimberley', 'Times New Roman', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+  }
+  
+  /* Suppression de la barre ajoutée par le thème Avada */
+  html #wrapper .fusion-title .title-sep-container {
+    display: none;
+  }
+  
+  /* Titre blanc */
+  html #wrapper .fusion-title.title.home-h2-white h2 {
+    color: rgb(255, 255, 255);
+  }
+  
+  /* Sous-titre */
+  html .section-subtitle {
+    color: rgb(241, 90, 35);
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: -16px;
+    margin-bottom: 34px;
+    text-align: center;
+    font-family: inherit;
+  }
+  
+  
+  
+  
+  
+  /* ------------
+     Pied de page
+     ------------ */
+  /* Texte en pied de page affiché en majuscule */
+  html #footer,
+  html .fusion-footer {
+    text-transform: uppercase;
+    border: none;
+    font-size: 14px;
+  }
+  
+  /* Mise en forme du menu en pied de page : liste */
+  html .fusion-footer-widget-area ul {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  /* Mise en forme du menu en pied de page : élément */
+  html .fusion-footer li {
+    border: none;
+    margin: 0;
+    padding: 0;
+    background: none;
+  }
+  
+  /* Mise en forme du menu en pied de page : lien */
+  html .fusion-footer li a {
+    border: none;
+    margin: 0;
+    padding: 4px 0;
+    background: none;
+    display: inline-block;
+  }
+  
+  /* Petite flèche avant un élément du menu */
+  html .fusion-footer li:before {
+    content: '▸';
+    color: rgb(241, 90, 35);
+    display: inline-block;
+    padding: 4px 0;
+  }
+  
+  /* Texte de copyright centré */
+  html .fusion-copyright-content {
+    text-align: center;
+  }
+  
+  /* Titre des blocs en gras */
+  html .fusion-footer .widget-title {
+    font-weight: bold;
+  }
+  
+  /* Texte de copyright en gris et plus petit */
+  html .fusion-copyright-notice {
+    color: rgb(98, 98, 98);
+    font-size: 12px;
+  }
+  
+  /* Suppression des bordures */
+  html .fusion-footer-widget-area.fusion-widget-area {
+    border: none;
+  }
+  
+  /* Découpage en 5 colonnes du bloc « Qui sommes-nous ? » */
+  .bloc-presentation .fusion-one-fifth {
+    margin-right: -12.6%;
+    width: 30%;
+  }
+  
+  /* PAGE CONTACT */
+  .page-id-611 .fusion-content-boxes .content-wrapper-background {
+    min-height : 305px;
+  }
+  
+  
+  /* ------------------------------------------------------------------------------------ */
+  /* ------------------------------------------------------------------------------------ */
+  /* ------------------------------------------------------------------------------------ */
+  /* Adaptatif */
+  /* ------------------------------------------------------------------------------------ */
+  /* ------------------------------------------------------------------------------------ */
+  /* ------------------------------------------------------------------------------------ */
+  @media screen and (min-width: 800px) and (max-width: 1230px) {
+    html .fusion-main-menu ul > li {
+      margin-left: 12px;
+      margin-right: 12px;
+        padding-right: 0;
+    }
+  
+    html .fusion-main-menu ul > li a {
+      font-size: 14px;
+      font-weight: normal;
+      text-transform: none;
+    }
+    
+    html .fusion-menu li:nth-last-child(2) {
+      padding-left: 4px;
+      padding-right: 4px;
+      border: none;
+    }
+    
+    html .fusion-menu li:nth-last-child(-n+5) {
+      margin-right: 4px !important;
+      padding-right: 0px !important;
+    }
+  }
+    
+  @media screen and (max-width: 950px) {
+    html .block-triangles,
+    html .block-decorative {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+      html #main {
+          padding-top: 0;
+      }
+  
+      html body .fusion-logo img {
+          width: 72px;
+      }
+  
+      html .fusion-mobile-menu-design-modern.fusion-header-v1 .fusion-mobile-nav-holder {
+          padding-top: 0;
+      }
+  
+      html .fusion-counters-box .fusion-counter-box {
+          margin-bottom: 0;
+      }
+  
+      .post-content .fusion-fullwidth:first-child {
+        padding-top: 0 !important;
+      }
+  
+      html .fusion-mobile-menu-design-modern.fusion-header-v1 .fusion-header {
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+  
+      html #wrapper .section-title .fusion-title.title {
+        margin: 0;
+      }
+  
+      html #wrapper .section-title .fusion-title.title h1 {
+        margin-top: 50px;
+      }
+  }
+  
+  @media (min-width: 470px) and (max-width: 800px) {
+      html .itc-map {
+          display: none;
+      }
+  }
