@@ -10,9 +10,6 @@ $(function() {
 	});
 });
 
-// YA --- 05/02/2016 - Permet de sauter doucement vers une entre sur la page
-// Page « La différence ITC » avec une marge au-dessus de l'ancre visée
-// Voir https://gist.github.com/HoundstoothSTL/5510082
 $(function() {
 	$('.itc-points-cles a[href^="#"]:not([href="#"])').click(function() {
 		if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
@@ -34,11 +31,6 @@ $(function() {
 	});
 });
 
-// YA --- 22/02/2016
-// Page « Notre univers »
-// L'affichage des citations est rendu dynamique en permettant à l'utilisateur
-// de cliquer sur les liens pour afficher les citations d'un groupe de
-// personnes lié à ITC d'une manière particulière
 $(function() {
 	// Blocs contenant les citations
 	var testimonialCustomers = $('#testimonial-customers');
